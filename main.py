@@ -7,7 +7,7 @@ TOKEN = ''
 init()
 
 try:
-    bot = Bot(token= TOKEN)
+    bot = Bot(token= 5371112712:AAGsOmaikkLGGdFiApYlBf_O7YcqbzUdits)
     dp = Dispatcher(bot)
 
     @dp.message_handler(commands=['start'])
